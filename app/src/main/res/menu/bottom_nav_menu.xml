@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_borsa"
+            android:icon="@mipmap/ic_iraqi_borsa"
+            android:title="@string/title_borsa" />
+    <item
+            android:id="@+id/navigation_market"
+            android:icon="@drawable/ic_market"
+            android:title="@string/title_market" />
+    <item
+            android:id="@+id/navigation_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/title_notifications"
+            />
+    <item
+            android:id="@+id/navigation_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/title_settings" />
+
+</menu>

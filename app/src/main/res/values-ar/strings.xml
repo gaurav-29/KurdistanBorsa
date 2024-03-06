@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بورصة کوردستان</string>
+    <string name="title_registration">انشاء حساب</string>
+    <string name="title_login">دخول</string>
+    <string name="title_market">سوق</string>
+    <string name="title_borsa">بورصة</string>
+    <string name="title_notifications">تنبیه</string>
+    <string name="title_settings">الاعدادات</string>
+    <string name="title_logout">الجروج</string>
+    <string name="title_watchlist">قائمة المراقبة</string>
+    <string name="title_profile">حساب تعريفي</string>
+    <string name="title_contactUs">اتصل بنا</string>
+    <string name="small_font_btn">صغیر</string>
+    <string name="medium_font_btn">وسط</string>
+    <string name="large_font_btn">کبیر</string>
+
+    <string name="select_language">تغیر لغة التطبیق</string>
+    <string name="notifications">تنبيه</string>
+    <!--<string name="english_lan">الإنجليزية</string>
+    <string name="gujarati_lan">الغوجاراتية</string>
+    <string name="arabic_lan">عربى</string>
+    <string name="kurdish_lan">كردي</string>-->
+
+    <string name="english_lan">English</string>
+    <string name="gujarati_lan">Gujarati</string>
+    <string name="arabic_lan">عربي</string>
+    <string name="kurdish_lan">کوردی</string>
+
+    <string name="login_title_market">سوق کردستان</string>
+    <string name="login_title_borsa">بورصة العراق</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="username_colon">اسم المستخدم  :</string>
+    <string name="password">کلمة السر</string>
+    <string name="password_colon">کلمة السر  :</string>
+    <string name="expiry_date_colon">تاريخ الانتهاء  :</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="or">او</string>
+    <string name="forgot_password">نسیت کلمة السر</string>
+    <string name="create_account">انشاء حساب</string>
+    <string name="share_app">شارك التطبيق</string>
+    <string name="bottom_sheet_title">شارك التطبيق</string>
+
+    <string name="spinner_title">اختار لغة</string>
+    <string name="save_settings">خزن التغیرات</string>
+    <string name="mobile_number">رقم الهاتف</string>
+    <string name="mobile_number_colon">رقم الهاتف  :</string>
+    <string name="cancel">الغاء</string>
+    <string name="submit">ثبت</string>
+    <string name="from">من</string>
+    <string name="to">الی</string>
+    <string name="ask">بیع</string>
+    <string name="bid">شراء</string>
+    <string name="name">الاسم</string>
+
+    <string name="enter_valid_mobile">الرجاء إدخال رقم هاتف محمول صحيح</string>
+    <string name="enter_password">يرجى إدخال كلمة المرور</string>
+    <string name="mobile_not_less_than">يجب ألا يقل رقم الهاتف عن 11 رقمًا</string>
+    <string name="field_cannot_empty">لا يمكن أن يكون الحقل فارغًا</string>
+
+    <string name="please_back_again">رجاء انقر علی العودة للخروج</string>
+    <string name="connection_timeout">فصل الربط بسسب التاخیر</string>
+    <string name="login_success">تسجیل الدخول تم بنجاح</string>
+    <string name="no_internet_available">لایوجد ربط بالانترنیت، یرجی التاکد من الاتصال بالشبکة</string>
+    <string name="exit">خروج</string>
+    <string name="retry">حاول مرة اخری</string>
+
+    <string name="signup_success">انشاء الحساب تم بنجاح</string>
+    <string name="forgot_success">نسیت کلمة السر تم بنجاح</string>
+    <string name="logout_success">الجروج تم بنجاح</string>
+    <string name="successfully_updated">تم التحديث بنجاح.</string>
+    <string name="something_went_wrong">هناك خطأ ما</string>
+    <string name="swipe_left_borsa">قائمة المراقبة فارغة! \n أضف إلى قائمة المراقبة عن طريق التمرير إلى اليسار من قائمة البورصة.</string>
+    <string name="swipe_left_market">قائمة المراقبة فارغة! \n أضف إلى قائمة المراقبة عن طريق التمرير إلى اليسار من قائمة السوق.</string>
+    <string name="swipe_right">انتقد من اليمين لحذف العنصر.</string>
+
+    <string name="are_you_sure_logout">هل أنت متأكد من أنك تريد تسجيل الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="ok">حسنا</string>
+
+    <string name="your_account_expiry">حسابك سيتم اقافه في</string>
+</resources>

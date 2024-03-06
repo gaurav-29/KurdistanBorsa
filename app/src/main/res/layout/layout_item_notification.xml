@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@android:color/transparent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent">
+
+        <ImageView
+                android:id="@+id/ivImg"
+                android:layout_width="@dimen/notification_img_width"
+                android:layout_height="70dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:background="@mipmap/ic_action_logo" />
+
+        <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="TextView"
+                android:textColor="@color/white_text"
+                android:textDirection="ltr"
+                android:textSize="@dimen/notification_phone_text_size"
+                app:layout_constraintBottom_toTopOf="@+id/tvMessage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ivImg"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="TextView"
+                android:textColor="@color/notification_label_color"
+                android:textDirection="ltr"
+                android:textSize="@dimen/notification_phone_text_size"
+                android:autoLink="all"
+                android:textColorLink="@android:color/holo_blue_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ivImg"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+        <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="TextView"
+                android:textAlignment="viewStart"
+                android:textColor="@color/notification_label_color"
+                android:textSize="@dimen/text_small12"
+                app:layout_constraintBottom_toTopOf="@+id/view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ivImg"
+                app:layout_constraintTop_toBottomOf="@+id/tvMessage" />
+
+        <TextView
+                android:id="@+id/tvTitleRTL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="TextView"
+                android:textColor="@color/white_text"
+                android:textAlignment="viewEnd"
+                android:textSize="@dimen/notification_phone_text_size"
+                app:layout_constraintBottom_toTopOf="@+id/tvMessageRTL"
+                app:layout_constraintEnd_toStartOf="@+id/ivImgRTL"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/tvMessageRTL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="TextView"
+                android:textColor="@color/notification_label_color"
+                android:textAlignment="viewEnd"
+                android:textSize="@dimen/notification_phone_text_size"
+                android:autoLink="all"
+                android:textColorLink="@android:color/holo_blue_light"
+                app:layout_constraintEnd_toStartOf="@+id/ivImgRTL"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitleRTL" />
+
+        <TextView
+                android:id="@+id/tvDateRTL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:text="TextView"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/notification_label_color"
+                android:textSize="@dimen/text_small12"
+                app:layout_constraintBottom_toTopOf="@id/view"
+                app:layout_constraintEnd_toStartOf="@+id/ivImgRTL"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvMessageRTL" />
+
+        <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/notification_label_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+        <ImageView
+                android:id="@+id/ivImgRTL"
+                android:layout_width="@dimen/notification_img_width"
+                android:layout_height="70dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:background="@mipmap/ic_action_logo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

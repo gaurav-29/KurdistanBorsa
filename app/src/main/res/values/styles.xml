@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+<!--    <style name="AppThemeCustom" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">-->
+<!--        &lt;!&ndash; Primary brand color. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorOnPrimary">@color/white</item>-->
+<!--        &lt;!&ndash; Secondary brand color. &ndash;&gt;-->
+<!--        <item name="colorSecondary">@color/colorPrimary</item>-->
+<!--        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorOnSecondary">@color/black</item>-->
+<!--        &lt;!&ndash; Status bar color. &ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>&ndash;&gt;-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--    </style>-->
+
+    <!-- AlertDialog Theme -->
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/black</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:layoutDirection">locale</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/hint_text</item>
+    </style>
+
+    <style name="AlertDialogCustomRTL" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/black</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:textDirection">rtl</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:gravity">start</item>
+        <item name="android:background">@color/hint_text</item>
+    </style>
+
+    <!-- Spinner Theme -->
+    <style name="spinnerItemStyle" parent="@android:style/Widget.Spinner">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:background">@drawable/spinner_bg</item>
+        <item name="android:selectableItemBackground">@color/background_color</item>
+    </style>
+
+    <!-- Spinner Theme -->
+    <style name="spinnerItemStyleRTL" parent="@android:style/Widget.Spinner">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:background">@drawable/spinner_bg_rtl</item>
+        <item name="android:selectableItemBackground">@color/background_color</item>
+    </style>
+
+    <!--Custom Forgot Password Dialog Button-->
+    <style name="AlertButtonOk">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/lato_bold</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:radius">3dp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="AlertButtonCancel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/lato_bold</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:radius">3dp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+<!-- To provide rounded corners in Bottom Sheet   -->
+    <style name="BottomSheetDialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetBackground</item>
+    </style>
+    <style name="bottomSheetBackground" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_round_corner</item>
+    </style>
+
+</resources>

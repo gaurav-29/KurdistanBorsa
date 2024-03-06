@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".fragment.ProfileFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/vGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.50"/>
+
+    <TextView
+            android:id="@+id/usernameTV"
+            android:text="@string/username_colon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/vGuide"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="56dp"/>
+
+    <TextView
+            android:id="@+id/usernameTV2"
+            android:text=""
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/vGuide"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="56dp"/>
+
+    <TextView
+            android:id="@+id/phoneNumberTV"
+            android:text="@string/mobile_number_colon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/vGuide"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@id/usernameTV"
+            android:layout_marginTop="34dp"/>
+
+    <TextView
+            android:id="@+id/phoneNumberTV2"
+            android:text=""
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/vGuide"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/usernameTV2"
+            android:layout_marginTop="34dp"/>
+
+    <TextView
+            android:id="@+id/kPasswordTV"
+            android:text="@string/password_colon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/vGuide"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@id/phoneNumberTV"
+            android:layout_marginTop="34dp"/>
+
+    <TextView
+            android:id="@+id/passwordTV"
+            android:text=""
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/vGuide"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/phoneNumberTV2"
+            android:layout_marginTop="34dp"/>
+
+    <TextView
+            android:id="@+id/kExpiryDateTV"
+            android:text="@string/expiry_date_colon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/vGuide"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@id/kPasswordTV"
+            android:layout_marginTop="34dp"/>
+
+    <TextView
+            android:id="@+id/expiryDateTV"
+            android:text=""
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/vGuide"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/passwordTV"
+            android:layout_marginTop="34dp"/>
+
+    <Button
+            android:id="@+id/contactUsBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/green_border"
+            android:text="@string/title_contactUs"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/kExpiryDateTV" />
+<!--    <TextView-->
+<!--            android:id="@+id/contactUsTV"-->
+<!--            android:text=""-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textDirection="locale"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginHorizontal="16dp"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/phoneNumberTV"-->
+<!--            android:layout_marginTop="56dp"/>-->
+
+    <Button
+            android:id="@+id/logoutBTN"
+            android:text="@string/title_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@color/green"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/contactUsBTN"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

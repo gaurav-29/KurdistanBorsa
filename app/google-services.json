@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "542209044229",
+    "firebase_url": "https://borsaapp-b5c41.firebaseio.com",
+    "project_id": "borsaapp-b5c41",
+    "storage_bucket": "borsaapp-b5c41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542209044229:android:0f912d30958ec468a6516c",
+        "android_client_info": {
+          "package_name": "com.nextsavy.kurdistanborsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542209044229-r56pug6rs431aodrf2ducit70vcv5per.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nextsavy.kurdistanborsa",
+            "certificate_hash": "e64dd8822b03b2f2915e60a2ee14f97cfb7860c3"
+          }
+        },
+        {
+          "client_id": "542209044229-qel25428fj68d1hmo0kbnv6oodvj4jp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXCn-z92VvtaQl9QYrIhN8L14OiyBGksQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542209044229-qel25428fj68d1hmo0kbnv6oodvj4jp4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542209044229-ks74f5crcmahus8igutus9q0q5p6nh4q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.comelite.kurdistanborsa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542209044229:android:6dc1c74ab317c127a6516c",
+        "android_client_info": {
+          "package_name": "net.comelite.kurdistanborsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542209044229-dncrevd1f74l6kv13cbn6svqmjn654o8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.comelite.kurdistanborsa",
+            "certificate_hash": "e64dd8822b03b2f2915e60a2ee14f97cfb7860c3"
+          }
+        },
+        {
+          "client_id": "542209044229-qel25428fj68d1hmo0kbnv6oodvj4jp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXCn-z92VvtaQl9QYrIhN8L14OiyBGksQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542209044229-qel25428fj68d1hmo0kbnv6oodvj4jp4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542209044229-ks74f5crcmahus8igutus9q0q5p6nh4q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.comelite.kurdistanborsa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

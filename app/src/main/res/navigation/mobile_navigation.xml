@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_borsa">
+
+    <fragment
+        android:id="@+id/navigation_market"
+        android:name="net.comelite.kurdistanborsa.fragment.MarketFragment"
+        android:label="@string/title_market"
+        tools:layout="@layout/fragment_market" >
+        <action android:id="@+id/action_navigation_market_to_fragment_login"
+                app:destination="@id/fragment_login"
+                app:popUpToInclusive="true">
+        <argument android:name="typeId"
+                  app:argType="string"
+                  android:defaultValue="2"/>
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_borsa"
+        android:name="net.comelite.kurdistanborsa.fragment.BorsaFragment"
+        android:label="@string/title_borsa"
+        tools:layout="@layout/fragment_borsa" >
+        <action android:id="@+id/action_navigation_borsa_to_fragment_login"
+                app:destination="@id/fragment_login"
+                app:popUpToInclusive="true">
+                <argument android:name="typeId"
+                          app:argType="string"
+                          android:defaultValue="1"/>
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="net.comelite.kurdistanborsa.fragment.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="net.comelite.kurdistanborsa.fragment.SettingFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="net.comelite.kurdistanborsa.fragment.LoginFragment"
+        android:label="@string/title_login"
+        tools:layout="@layout/fragment_login">
+
+        <action android:id="@+id/action_fragment_login_to_fragment_registration"
+                app:destination="@id/fragment_registration"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim">
+            <argument android:name="typeId"
+                      app:argType="string"
+                      android:defaultValue="1"/>
+        </action>
+    </fragment>
+
+    <fragment
+            android:id="@+id/fragment_registration"
+            android:name="net.comelite.kurdistanborsa.fragment.RegistrationFragment"
+            android:label="@string/title_registration"
+            tools:layout="@layout/fragment_registration"/>
+
+    <dialog
+        android:id="@+id/image_popup_dialog"
+        android:name="net.comelite.kurdistanborsa.fragment.ImagePopUpDialogFragment"
+        />
+    <fragment
+            android:id="@+id/watchlistFragment"
+            android:name="net.comelite.kurdistanborsa.fragment.BorsaWatchlistFragment"
+            android:label="fragment_watchlist"
+            tools:layout="@layout/fragment_borsa_watchlist" />
+    <fragment
+            android:id="@+id/profileFragment"
+            android:name="net.comelite.kurdistanborsa.fragment.ProfileFragment"
+            android:label="fragment_profile"
+            tools:layout="@layout/fragment_profile" />
+    <fragment
+            android:id="@+id/marketWatchlistFragment"
+            android:name="net.comelite.kurdistanborsa.fragment.MarketWatchlistFragment"
+            android:label="fragment_market_watchlist"
+            tools:layout="@layout/fragment_market_watchlist" />
+</navigation>

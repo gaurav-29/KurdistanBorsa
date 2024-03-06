@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بۆرسەی کوردستان</string>
+    <string name="title_registration">تۆمارکردن</string>
+    <string name="title_login">چوونەژوورەوە</string>
+    <string name="title_market">بازاڕ</string>
+    <string name="title_borsa">بۆرسە</string>
+    <string name="title_notifications">زەنگ</string>
+    <string name="title_settings">چاک کردن</string>
+    <string name="title_logout">دەرچوون</string>
+    <string name="title_watchlist">لیستی چاودێری</string>
+    <string name="title_profile">پرۆفایل</string>
+    <string name="title_contactUs">پەیوەندیمان پێوەبکە</string>
+    <string name="small_font_btn">بچوك</string>
+    <string name="medium_font_btn">مامناوەند</string>
+    <string name="large_font_btn">گەورە</string>
+
+    <string name="select_language">گۆڕینی زمانی ئەپ</string>
+    <string name="notifications">زەنگ</string>
+    <string name="english_lan">English</string>
+    <string name="gujarati_lan">Gujarati</string>
+    <string name="arabic_lan">عربي</string>
+    <string name="kurdish_lan">کوردی</string>
+
+    <string name="login_title_market">بازاڕ کوردستان</string>
+    <string name="login_title_borsa">بۆرسەی عێڕاق</string>
+    <string name="username">هەژمار</string>
+    <string name="username_colon">هەژمار  :</string>
+    <string name="password">ژمارەی نهێنی</string>
+    <string name="password_colon">ژمارەی نهێنی  :</string>
+    <string name="expiry_date_colon">بەرواری بەسەرچوون  :</string>
+    <string name="login">چوونەژوورەوە</string>
+    <string name="or">یان</string>
+    <string name="forgot_password">ژمارەی نهێنیت لە بیرچووە</string>
+    <string name="create_account">دروستکردنی هەژمار</string>
+    <string name="share_app">ئەپەکە لەگەڵ هاوڕێکانت بەش بکە</string>
+    <string name="bottom_sheet_title">ئەپەکە لەگەڵ هاوڕێکانت بەش بکە</string>
+
+    <string name="spinner_title">زمان هەڵبژێرە</string>
+    <string name="save_settings">دڵنیابوون لە گۆڕین</string>
+    <string name="mobile_number">ژمارەی مۆبایل</string>
+    <string name="mobile_number_colon">ژمارەی مۆبایل  :</string>
+    <string name="cancel">پەشیمان بوونەوە</string>
+    <string name="submit">تەواو</string>
+    <string name="from">لە</string>
+    <string name="to">بۆ</string>
+    <string name="ask">فرۆشتن</string>
+    <string name="bid">کڕێن</string>
+    <string name="name">ناو</string>
+
+    <string name="enter_valid_mobile">ژمارەی مۆبایل</string>
+    <string name="enter_password">ژمارەی نهێنی</string>
+    <string name="mobile_not_less_than">ژمارەی تەلەفۆن لە ١١ ژمارە کەمتر نەبێت</string>
+    <string name="field_cannot_empty">مەیدان ناتوانێت بەتاڵ بێت</string>
+
+    <string name="please_back_again">تکایە کلیک لەسەر گەڕانەوە بکە بۆ دەرچوون</string>
+    <string name="connection_timeout">پەیوەندی نەما</string>
+    <string name="login_success">چوونەژوورەوە سەرکەوتوو بوو</string>
+    <string name="no_internet_available">تکایا دڵنیایی بکەوە کە پەیوەندیت هەیە لەگەل ئینتەرنێت</string>
+    <string name="exit">دەرچوون</string>
+    <string name="retry">هەوڵبدەوە جارێکی تر.</string>
+    <string name="signup_success">دروستکردنی هەژمار سەرکەوتوو بوو</string>
+    <string name="forgot_success">پاسۆردت لە بیرچووە بە سەرکەوتوویی</string>
+
+    <string name="logout_success">بەسەرکەوتویی دەرچووی</string>
+    <string name="successfully_updated">بە سەرکەوتوویی نوێ کراوەتەوە</string>
+    <string name="something_went_wrong">هەندێ شت بە هەڵە ڕۆیشت</string>
+    <string name="swipe_left_borsa">لیستی چاودێریکردن بەتاڵە! \n زیادکردن بۆ لیستی چاودێریکردن بە سوایپکردنی چەپ لە لیستی بۆرسا.</string>
+    <string name="swipe_left_market">لیستی چاودێریکردن بەتاڵە! \n زیادکردن بۆ لیستی چاودێریکردن بە سوایپکردنی چەپ لە لیستی مارکێت.</string>
+    <string name="swipe_right">لە ڕاستەوە سوایپ بکە بۆ سڕینەوەی بابەتەکە.</string>
+
+    <string name="are_you_sure_logout">دەتەوێ لە ئەپ دەربچی؟</string>
+    <string name="yes">بەڵێ</string>
+    <string name="ok">باشە</string>
+
+    <string name="your_account_expiry">ئەژمارەکەت بەسەر دەچێ لە</string>
+</resources>
+

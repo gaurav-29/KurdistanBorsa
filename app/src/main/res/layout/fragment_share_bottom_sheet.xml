@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".fragment.ShareBottomSheetFragment">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bottom_sheet_title"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"/>
+
+        <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:dividerColor="@color/background_color_gray"/>
+
+        <Button
+                android:id="@+id/playStoreBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play Store"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent" />
+
+        <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:dividerColor="@color/background_color_gray"/>
+
+        <Button
+                android:id="@+id/appStoreBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="App Store"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
